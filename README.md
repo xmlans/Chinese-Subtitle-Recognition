@@ -1,6 +1,6 @@
 # Chinese-Subtitle-Recognition 中文字幕生成
 Chinese Subtitle Recognition, Chinese translation, speech recognition <br>
-本程序的功能是将视频文件转换成音频，然后使用model进行识别并输出相应时间轴的中文字幕，可用于识别任何中文语言的视频 <br>
+本程序的功能是将视频文件转换成音频，然后使用model进行识别并输出相应时间轴的中文字幕，可用于识别任何中文语言的视频，技术层面使用OpenAI whisper <br>
 # 系统需求
 请安装Python，如果不知道什么是Python请不要运行此程序，根据系统选择合适的Python下载 https://www.python.org/downloads/windows/ <br>
 <b>不要使用太过老旧的Python版本，因为未经过测试，程序包含所有Python依赖，如果你的显卡没有CUDA请在这里安装 https://developer.nvidia.com/cuda-12-1-0-download-archive <br>
