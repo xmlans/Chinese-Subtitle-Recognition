@@ -1,2 +1,8 @@
-# Chinese-Subtitle-Recognition
-Chinese Subtitle Recognition, Chinese translation, speech recognition
+# Chinese-Subtitle-Recognition 中文字幕生成
+Chinese Subtitle Recognition, Chinese translation, speech recognition <br>
+本程序的功能是将视频文件转换成音频，然后使用model进行识别并输出相应时间轴的中文字幕，可用于识别任何中文语言的视频 <br>
+# 系统需求
+本程序使用了两种不同程度的模型可供选择，默认加载小模型（small model），在第一次运行软件时下载，约300MB大小，至少需要你的显卡有3GB以上显存 <br>
+可在软件内切换大模型（large model），首次切换需要下载，大模型约4GB大小，如果你的网络速度不佳可能需要几十分钟，下载过程中请不要终止程序，大模型有更好的识别效果，需要显存至少有12G以上 <br>
+# 为什么要开发？
+兰酱有个中国朋友喜欢asmr，他吐槽女生说话声音难听清，所以就做了这个。
