@@ -5,7 +5,7 @@ Chinese Subtitle Recognition, Chinese translation, speech recognition <br>
 exe打包有点小毛病在修，可以直接下载Releases内完成的Python脚本start.py，并安装环境 <br>
 <code>pip install PyQt6 openai-whisper torch torchaudio ffmpeg-python</code> <br>
 安装完环境之后，运行以下命令即可 <br>
-<code>python start.py<code>
+<code>python start.py</code>
 # 系统需求
 请安装Python，如果不知道什么是Python请不要运行此程序，根据系统选择合适的Python下载 https://www.python.org/downloads/windows/ <br>
 <b>不要使用太过老旧的Python版本<b>，因为未经过测试，程序包含所有Python依赖，如果你的显卡没有CUDA请在这里安装 https://developer.nvidia.com/cuda-12-1-0-download-archive <br>
