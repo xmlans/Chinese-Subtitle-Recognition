@@ -2,7 +2,7 @@
 Chinese Subtitle Recognition, Chinese translation, speech recognition <br>
 本程序的功能是将视频文件转换成音频，然后使用model进行识别并输出相应时间轴的中文字幕，可用于识别任何中文语言的视频，技术层面使用OpenAI whisper <br>
 # 下载并运行程序
-exe打包有点小毛病懒得弄了，有点技术就直接下载Releases内完成的Python脚本start.py，并安装环境 <br>
+exe打包有点小毛病懒得弄了，有点技术就直接下载Releases内完成的Python脚本start.py，并安装环境 (ffmpeg.exe放到发布包了，请一起下载和python文件放到一个目录) <br>
 <code>pip install PyQt6 openai-whisper torch torchaudio ffmpeg-python</code> <br>
 安装完环境之后，运行以下命令即可 <br>
 <code>python start.py</code>
